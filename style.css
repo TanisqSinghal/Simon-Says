@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+
+}
+.red {
+    background-color: #d95980;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+/* Button Flash */
+.flash {
+    background-color: white !important;
+    box-shadow: 0 0 20px white;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.userflash {
+    background-color: lime !important;
+    transform: scale(0.9);
+    transition: 0.2s;
+}
